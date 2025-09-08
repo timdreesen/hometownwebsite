@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    height: 350px;
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+#hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #1D3557;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+#hero h2 {
+    font-size: 18px;
+    background-color: #457B9D;
+    padding: 10px 25px;
+    border-radius: 10px;
+    max-width: 355px;
+    margin: 0;
+}
+
+
+#services {
+    margin-top: 0;
+    height: 400px;
+    background-color: #F1FAEE;
+    display: flex;
+    justify-content: center;
+}
+
+#services h3 {
+    padding: 50px;
+    color: #1D3557;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+#services .services-wrapper {
+display: flex;
+justify-content: space-around;
+max-width: 720px;
+gap: 45px
+}
+
+#services .services-wrapper img {
+border-radius: 50%;
+}
+
+#services .services-wrapper h3 {
+    padding: 8px;
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+#services .services-wrapper p {
+    padding: 3px;
+    margin: 0;
+}
+
+#about-me {
+    height: 400px;
+    margin-top: 45px;
+}
+
+#about-me h3 {
+    margin: 5px;
+   font-size: 24px;
+   font-weight: bold;
+}
+#about-me p {
+   font-style: italic;
+   font-size: 16px;
+}
+#about-me h4 {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#about-me .card {
+    padding: 0px 20px;
+    margin: auto;
+    height: 294px;
+    width: 400px;
+    background-color: #A8DADC;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+    gap: 10px;
+    border-bottom: solid 8px;
+}
+
+#about-me .card .img-wrapper {
+    width: 45%;
+}
+#about-me .card .img-wrapper img{
+    width: 180px;
+    border-radius: 10px;
+}
+
+
